@@ -1,3 +1,5 @@
+#data collection on interested topic with popularity levels
+
 install.packages("rtweet")
 install.packages("httpuv")
 library(rtweet)
@@ -43,5 +45,6 @@ sd(PPEDisney$favorite_count)
 
 # retweet_count: number of retweets of each message
 summary(PPEDisney$retweet_count)
+
 
 
