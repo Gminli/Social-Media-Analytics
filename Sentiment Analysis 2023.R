@@ -18,7 +18,7 @@ install.packages("devtools")
 devtools::install_github("mamut86/diffusion")
 
 library(diffusion)
-#i
+#i descriptive data
 #1
 ct=table(ds$asin)
 sort(ct,decreasing=T)
